@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Painting -> Music logo: a painter's palette with one paint dab per music genre
+       (gold = Classical, blue = Jazz, teal = Ambient, red = Rock/Metal) and a music note. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF8A3D"/>
+      <stop offset="0.55" stop-color="#D9367A"/>
+      <stop offset="1" stop-color="#6A2FE0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- palette -->
+  <path d="M256 84 C376 84 452 164 452 262 C452 334 408 366 362 356 C322 348 298 366 306 402
+           C314 446 282 456 246 452 C144 442 60 364 60 262 C60 164 136 84 256 84 Z" fill="#FFF4E2"/>
+  <!-- thumb hole -->
+  <circle cx="378" cy="262" r="26" fill="url(#bg)"/>
+  <!-- paint dabs -->
+  <circle cx="162" cy="176" r="32" fill="#F5B700"/>
+  <circle cx="256" cy="140" r="32" fill="#2D7FF9"/>
+  <circle cx="350" cy="176" r="32" fill="#14B88F"/>
+  <circle cx="118" cy="268" r="32" fill="#EF3B4F"/>
+  <!-- music note -->
+  <ellipse cx="204" cy="338" rx="46" ry="34" transform="rotate(-22 204 338)" fill="#2A1A5E"/>
+  <rect x="234" y="196" width="18" height="146" rx="6" fill="#2A1A5E"/>
+  <path d="M244 196 C292 206 330 236 314 290 C310 250 286 236 244 238 Z" fill="#2A1A5E"/>
+</svg>

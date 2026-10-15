@@ -1,0 +1,45 @@
+images 103250 {'style': 58, 'genre': 29, 'artist': 159}
+trainable params (M): 80.0 steps 1600 batch 16 x 4 lr 1e-05 distill 2.0
+step 50  loss 8.384  drift 0.0001  19.5 img/s  mem 3.92 GB  elapsed 2.7 min
+step 100  loss 4.660  drift 0.0058  19.7 img/s  mem 3.92 GB  elapsed 5.4 min
+step 150  loss 3.635  drift 0.0173  19.7 img/s  mem 3.92 GB  elapsed 8.1 min
+step 200  loss 3.357  drift 0.0208  19.7 img/s  mem 3.92 GB  elapsed 10.8 min
+step 250  loss 3.151  drift 0.0220  19.7 img/s  mem 3.92 GB  elapsed 13.5 min
+  VAL step 250: accuracy {'style': 0.576, 'genre': 0.743, 'artist': 0.649}  cosine to original 0.9776
+step 300  loss 3.042  drift 0.0240  18.6 img/s  mem 3.92 GB  elapsed 17.2 min
+step 350  loss 2.969  drift 0.0245  18.7 img/s  mem 3.92 GB  elapsed 20.0 min
+step 400  loss 2.804  drift 0.0241  18.7 img/s  mem 3.92 GB  elapsed 22.8 min
+step 450  loss 2.799  drift 0.0251  19.1 img/s  mem 3.92 GB  elapsed 25.1 min
+step 500  loss 2.739  drift 0.0253  19.5 img/s  mem 3.92 GB  elapsed 27.4 min
+  VAL step 500: accuracy {'style': 0.593, 'genre': 0.738, 'artist': 0.745}  cosine to original 0.976
+  saved adapter_step500.pt
+step 550  loss 2.702  drift 0.0236  19.3 img/s  mem 3.92 GB  elapsed 30.4 min
+step 600  loss 2.701  drift 0.0245  19.5 img/s  mem 3.92 GB  elapsed 32.8 min
+step 650  loss 2.661  drift 0.0248  19.8 img/s  mem 3.92 GB  elapsed 35.1 min
+step 700  loss 2.571  drift 0.0252  20.0 img/s  mem 3.92 GB  elapsed 37.3 min
+step 750  loss 2.659  drift 0.0243  20.2 img/s  mem 3.92 GB  elapsed 39.6 min
+  VAL step 750: accuracy {'style': 0.62, 'genre': 0.758, 'artist': 0.766}  cosine to original 0.9752
+step 800  loss 2.521  drift 0.0242  20.0 img/s  mem 3.92 GB  elapsed 42.6 min
+step 850  loss 2.519  drift 0.0242  20.2 img/s  mem 3.92 GB  elapsed 44.9 min
+step 900  loss 2.461  drift 0.0250  20.3 img/s  mem 3.92 GB  elapsed 47.2 min
+step 950  loss 2.412  drift 0.0239  20.5 img/s  mem 3.92 GB  elapsed 49.4 min
+step 1000  loss 2.482  drift 0.0236  20.6 img/s  mem 3.92 GB  elapsed 51.7 min
+  VAL step 1000: accuracy {'style': 0.627, 'genre': 0.76, 'artist': 0.793}  cosine to original 0.9759
+  saved adapter_step1000.pt
+step 1050  loss 2.462  drift 0.0240  20.5 img/s  mem 3.92 GB  elapsed 54.7 min
+step 1100  loss 2.397  drift 0.0240  20.6 img/s  mem 3.92 GB  elapsed 57.0 min
+step 1150  loss 2.324  drift 0.0240  20.7 img/s  mem 3.92 GB  elapsed 59.3 min
+step 1200  loss 2.408  drift 0.0240  20.8 img/s  mem 3.92 GB  elapsed 61.6 min
+step 1250  loss 2.348  drift 0.0238  20.9 img/s  mem 3.92 GB  elapsed 63.9 min
+  VAL step 1250: accuracy {'style': 0.641, 'genre': 0.763, 'artist': 0.806}  cosine to original 0.9762
+step 1300  loss 2.372  drift 0.0234  20.7 img/s  mem 3.92 GB  elapsed 66.9 min
+step 1350  loss 2.391  drift 0.0232  20.8 img/s  mem 3.92 GB  elapsed 69.2 min
+step 1400  loss 2.311  drift 0.0232  20.9 img/s  mem 3.92 GB  elapsed 71.4 min
+step 1450  loss 2.357  drift 0.0232  21.0 img/s  mem 3.92 GB  elapsed 73.7 min
+step 1500  loss 2.350  drift 0.0232  21.1 img/s  mem 3.92 GB  elapsed 76.0 min
+  VAL step 1500: accuracy {'style': 0.637, 'genre': 0.769, 'artist': 0.817}  cosine to original 0.9768
+step 1550  loss 2.327  drift 0.0230  20.9 img/s  mem 3.92 GB  elapsed 79.0 min
+step 1600  loss 2.308  drift 0.0232  21.0 img/s  mem 3.92 GB  elapsed 81.3 min
+  VAL step 1600: accuracy {'style': 0.637, 'genre': 0.768, 'artist': 0.817}  cosine to original 0.9768
+  saved adapter_step1600.pt
+done in 82.0 min

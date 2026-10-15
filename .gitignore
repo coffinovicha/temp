@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+# downloaded separately from the v1 release
+clip_art_adapter.pt
+# painting photos and outputs that show them (copyrighted artworks)
+261013_Dataset_CU_Paintings_JPG*/
+*.zip
+result_pictures/

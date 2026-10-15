@@ -1,0 +1,8 @@
+numpy
+opencv-python
+scikit-learn
+joblib
+# CLIP image model (optional, but the trained models are much better with it).
+# For an NVIDIA GPU, install torch from https://pytorch.org first.
+torch
+open_clip_torch
